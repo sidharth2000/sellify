@@ -1,0 +1,11 @@
+spring:
+  application:
+    name : sellify
+  datasource:
+    url: jdbc:mysql://localhost:3306/sellify
+    username: root
+    password: ubuntu
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
